@@ -1,4 +1,5 @@
-export type Todo={
-    id: number;
-    text:string;
+export interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
 }
